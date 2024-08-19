@@ -69,57 +69,57 @@ Por qué: Mejora la precisión en la verificación de asistencia y permite envia
 **Semana 5-6**:  Diseño y Desarrollo Inicial
 
   1. Diseño de la Interfaz de Usuario Básica:
-    - Creación de wireframes y mockups para las pantallas principales: mapa interactivo, red de contactos, foros,           escaneo de documentos, y alertas.
+     - Creación de wireframes y mockups para las pantallas principales: mapa interactivo, red de contactos, foros,           escaneo de documentos, y alertas.
      
   2. Implementación de la Actividad Principal y Navegación entre Pantallas:
-    - Configuración de la estructura básica de la aplicación en Android Studio.
-    - Implementación de la navegación entre las pantallas principales.
+     - Configuración de la estructura básica de la aplicación en Android Studio.
+     - Implementación de la navegación entre las pantallas principales.
      
 **Semana 7-8**: Desarrollo del Mapa Interactivo y Red de Contactos
 
   3. Desarrollo del Mapa Interactivo:
-    - Integración del GPS y la funcionalidad de mapa para localizar ubicaciones en el campus.
-    - Implementación de búsqueda y direcciones dentro del mapa.
+     - Integración del GPS y la funcionalidad de mapa para localizar ubicaciones en el campus.
+     - Implementación de búsqueda y direcciones dentro del mapa.
      
   5. Desarrollo de la Red de Contactos:
-    - Creación de perfiles de usuario y funcionalidades básicas de conexión.
-    - Implementación del calendario de eventos y notificaciones.
+     - Creación de perfiles de usuario y funcionalidades básicas de conexión.
+     - Implementación del calendario de eventos y notificaciones.
 
 **Semana 9-10**: Foros, Grupos de Estudio y Escaneo de Documentos
 
   5. Desarrollo de Foros y Grupos de Estudio:
-    - Implementación de espacios para discusión y colaboración en proyectos académicos.
-    - Configuración de herramientas para compartir ideas y recursos.
+     - Implementación de espacios para discusión y colaboración en proyectos académicos.
+     - Configuración de herramientas para compartir ideas y recursos.
     
   6. Desarrollo de la Funcionalidad de Escaneo de Documentos:
-    - Integración de la cámara para escanear y digitalizar documentos.
-    - Implementación de almacenamiento y organización de documentos digitalizados.
+     - Integración de la cámara para escanear y digitalizar documentos.
+     - Implementación de almacenamiento y organización de documentos digitalizados.
 
 **Semana 11-12**:Alertas y Recordatorios Personalizados y Mejora de la Interfaz
 
   7. Desarrollo de Alertas y Recordatorios Personalizados:
-    - Implementación del sistema de notificaciones para fechas de entrega, horarios de clases, y eventos importantes.
-    - Configuración de alertas basadas en la ubicación del usuario mediante sensores.
+     - Implementación del sistema de notificaciones para fechas de entrega, horarios de clases, y eventos importantes.
+     - Configuración de alertas basadas en la ubicación del usuario mediante sensores.
      
   8. Mejora de la Interfaz de Usuario:
-    - Refinamiento del diseño de la interfaz basado en la retroalimentación y pruebas preliminares.
+     - Refinamiento del diseño de la interfaz basado en la retroalimentación y pruebas preliminares.
 
 **Semana 13-14**:  Integración de Hardware y Refinamiento
 
   9. Integración de Componentes de Hardware:
-    - Implementación y pruebas de funciones de GPS, cámara y sensores.
-    - Configuración de geofencing y notificaciones contextuales basadas en ubicación.
+     - Implementación y pruebas de funciones de GPS, cámara y sensores.
+     - Configuración de geofencing y notificaciones contextuales basadas en ubicación.
      
   10. Refinamiento de Funcionalidades Existentes:
-    - Ajustes y optimización de las funcionalidades desarrolladas.
-    - Corrección de errores y mejora del rendimiento.
+      - Ajustes y optimización de las funcionalidades desarrolladas.
+      - Corrección de errores y mejora del rendimiento.
 
 **Semana 15-16**:Pruebas, Depuración y Preparación Final
 
   11. Pruebas y Depuración:
-    - Pruebas exhaustivas de todas las funcionalidades: mapa interactivo, red de contactos, foros, escaneo de               documentos, y alertas.
-    - Identificación y corrección de errores, y ajustes finales en la aplicación.
+      - Pruebas exhaustivas de todas las funcionalidades: mapa interactivo, red de contactos, foros, escaneo de               documentos, y alertas.
+      - Identificación y corrección de errores, y ajustes finales en la aplicación.
       
   12. Preparación de la Presentación Final del Proyecto:
-    - Creación de la documentación técnica y de usuario.
-    - Preparación de una presentación para mostrar el proyecto y sus funcionalidades.
+      - Creación de la documentación técnica y de usuario.
+      - Preparación de una presentación para mostrar el proyecto y sus funcionalidades.
