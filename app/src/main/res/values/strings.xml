@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">LoginApp</string>
+    <string name="nombre_text">Nombre</string>
+    <string name="acercade_text">Acerca de</string>
+    <string name="correo_text">Correo</string>
+    <string name="perfil_text">Perfil</string>
+    <string name="app_name">UNICONECTA</string>
+    <string name="intro_text">APP UNIVERSITARIA</string>
+    <string name="intro_text2">Uniconecta es la app de la Universidad Católica Luis Amigó que centraliza horarios, calificaciones y notificaciones para una gestión estudiantil eficiente. Todo lo que necesitas, en un solo lugar.</string>
+    <string name="TextBotton">Registrate</string>
+    <string name="intro_text1">INICIAR SESIÓN</string>
+    <string name="registro_text2">Correo electrónico o número de teléfono</string>
+    <string name="contraseña_text3">Contraseña</string>
+    <string name="TextBotton_text4">Iniciar sesión</string>
+    <string name="contraseña_text5">¿Olvidaste tu contraseña?</string>
+    <string name="registro_text6">¿No tienes una cuenta?</string>
+    <string name="registro_text7">REGISTRATE</string>
 </resources>
