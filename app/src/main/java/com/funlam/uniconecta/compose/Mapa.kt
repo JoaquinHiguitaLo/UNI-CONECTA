@@ -35,7 +35,7 @@ import com.funlam.uniconecta.R
 
 @Preview
 @Composable
-fun BottomAppBarMapa() {
+fun BottomAppBarMapaScreen() {
     Scaffold(
             bottomBar = {
                 BottomAppBar(

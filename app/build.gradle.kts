@@ -49,6 +49,12 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.compose.material3:material3")
+    implementation ("androidx.compose.material:material-icons-extended:1.0.1")
+    implementation ("androidx.compose.material3:material3:1.0.1")
+    implementation ("androidx.compose.ui:ui:1.5.0") // O la versión más reciente
+    implementation ("androidx.compose.ui:ui-tooling-preview:1.5.0") // O la versión más reciente
+    implementation ("androidx.activity:activity-compose:1.7.0") // O la versión más reciente
+    implementation ("androidx.navigation:navigation-compose:2.7.0") // Usa la última versión disponible
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
