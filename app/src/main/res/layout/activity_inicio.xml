@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNI CONECTA"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/imageCampus"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:src="@drawable/campusimage"
+         />
+
+
+    <ImageButton
+        android:id="@+id/BotonComunidad"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/border_button"
+        app:layout_constraintEnd_toStartOf="@id/BotonAlertas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageCampus"
+        android:src="@drawable/iconcomunidad" />
+
+    <ImageButton
+        android:id="@+id/BotonAlertas"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/border_button"
+        android:backgroundTint="@null"
+        app:layout_constraintEnd_toStartOf="@id/BotonMapa"
+        app:layout_constraintStart_toEndOf="@id/BotonComunidad"
+        app:layout_constraintTop_toBottomOf="@id/imageCampus"
+        android:src="@drawable/iconalertas" />
+
+    <ImageButton
+        android:id="@+id/BotonMapa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/border_button"
+        android:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/BotonAlertas"
+        app:layout_constraintTop_toBottomOf="@id/imageCampus"
+        android:src="@drawable/iconmapa" />
+
+
+    <ImageButton
+        android:id="@+id/BotonCalendario"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/border_button"
+        android:backgroundTint="@null"
+        app:layout_constraintEnd_toStartOf="@id/BotonBiblioteca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/BotonComunidad"
+        android:src="@drawable/iconcalendario" />
+
+    <ImageButton
+        android:id="@+id/BotonBiblioteca"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/border_button"
+        android:backgroundTint="@null"
+        app:layout_constraintEnd_toStartOf="@id/BotonHorario"
+        app:layout_constraintStart_toEndOf="@id/BotonCalendario"
+        app:layout_constraintTop_toBottomOf="@id/BotonAlertas"
+        android:src="@drawable/iconalmacen" />
+
+    <ImageButton
+        android:id="@+id/BotonHorario"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/border_button"
+        android:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/BotonBiblioteca"
+        app:layout_constraintTop_toBottomOf="@id/BotonMapa"
+        android:src="@drawable/iconhorario" />
+
+
+    <ImageButton
+        android:id="@+id/BotonAtrasInicio"
+        android:layout_width="58dp"
+        android:layout_height="44dp"
+
+        android:backgroundTint="#ffff"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iconregresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

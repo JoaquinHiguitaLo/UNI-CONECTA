@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Título dentro de la barra de herramientas -->
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAMPUS VIRTUAL"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:src="@drawable/imgcampus"
+        app:layout_constraintTop_toBottomOf="@id/toolbar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Título de los bloques -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bloques"
+        app:layout_constraintTop_toBottomOf="@id/imageView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Primer fila de botones -->
+    <ImageButton
+        android:id="@+id/ImageBloque1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bloque1"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ImageBloque2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bloque2"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toEndOf="@id/ImageBloque1"
+        />
+
+    <ImageButton
+        android:id="@+id/ImageBloque3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bloque3"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toEndOf="@id/ImageBloque2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Segunda fila de botones -->
+    <ImageButton
+        android:id="@+id/ImageBloque4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bloque4"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/ImageBloque1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ImageBloque5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bloque5"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/ImageBloque2"
+        app:layout_constraintStart_toEndOf="@id/ImageBloque4" />
+
+    <ImageButton
+        android:id="@+id/ImageBloque6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bloque6"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/ImageBloque3"
+        app:layout_constraintStart_toEndOf="@id/ImageBloque5"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Botón de regreso -->
+    <ImageButton
+        android:id="@+id/BotonAtrasMapa"
+        android:layout_width="58dp"
+        android:layout_height="44dp"
+        android:src="@drawable/iconregresar"
+        android:backgroundTint="#FDFBFB"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

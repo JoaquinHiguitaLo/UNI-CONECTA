@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="413dp"
+        android:layout_height="56dp"
+        android:background="@color/orange"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        cardView:layout_constraintEnd_toEndOf="parent"
+        cardView:layout_constraintStart_toStartOf="parent"
+        cardView:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="HORARIO"
+        cardView:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        cardView:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        cardView:layout_constraintStart_toStartOf="@+id/toolbar3"
+        cardView:layout_constraintTop_toTopOf="@+id/toolbar3" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <!-- Ejemplo de Tarjeta de Alerta -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#FFFAFA">
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Ejemplo de Tarjeta de Alerta -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#FFFAFA">
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Título de la Materia -->
+                <TextView
+                    android:id="@+id/MateriaEH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estadistica"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Descripción de la Tarea -->
+                <TextView
+                    android:id="@+id/BloqueEH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Bloque 3"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <!-- Fecha de Entrega -->
+                <TextView
+                    android:id="@+id/SalonEH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Salón: 202"
+                    android:textColor="#020202"
+                    android:textSize="14sp" />
+
+                <!-- Nivel de Importancia -->
+                <TextView
+                    android:id="@+id/HoraInicioEH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Inicio: 6:00PM"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/HorafinEH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Fin: 8:00PM"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/ProfesorEH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Juan Carlos"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#FFFAFA">
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Título de la Materia -->
+                <TextView
+                    android:id="@+id/MateriaBD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Base de datos"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Descripción de la Tarea -->
+                <TextView
+                    android:id="@+id/BloqueBD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Bloque 3"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <!-- Fecha de Entrega -->
+                <TextView
+                    android:id="@+id/SalonBD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Salón: 203"
+                    android:textColor="#020202"
+                    android:textSize="14sp" />
+
+                <!-- Nivel de Importancia -->
+                <TextView
+                    android:id="@+id/HoraInicioBD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Inicio: 6:00AM"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/HorafinBD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Fin: 8:00AM"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/ProfesorBD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Juan Jaramillo"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/BotonAtrasHorario"
+        android:layout_width="58dp"
+        android:layout_height="44dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FDFBFB"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iconregresar"
+        cardView:layout_constraintBottom_toBottomOf="parent"
+        cardView:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/crearMateria"
+        android:layout_width="224dp"
+        android:layout_height="43dp"
+        android:text="Agregar materia"
+        cardView:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        cardView:layout_constraintEnd_toEndOf="parent"
+        cardView:layout_constraintStart_toEndOf="@+id/BotonAtrasHorario" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

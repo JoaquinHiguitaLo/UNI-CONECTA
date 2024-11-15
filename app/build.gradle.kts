@@ -1,8 +1,9 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-}
+    id("com.google.devtools.ksp")
 
+}
 android {
     namespace = "com.funlam.uniconecta"
     compileSdk = 34
@@ -32,12 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.8"
-    }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -45,16 +41,16 @@ android {
     }
 }
 
+
+
 dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
-    implementation("androidx.compose.material3:material3")
-    implementation ("androidx.compose.material:material-icons-extended:1.0.1")
-    implementation ("androidx.compose.material3:material3:1.0.1")
-    implementation ("androidx.compose.ui:ui:1.5.0") // O la versión más reciente
-    implementation ("androidx.compose.ui:ui-tooling-preview:1.5.0") // O la versión más reciente
-    implementation ("androidx.activity:activity-compose:1.7.0") // O la versión más reciente
-    implementation ("androidx.navigation:navigation-compose:2.7.0") // Usa la última versión disponible
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22")
+    //ROOM
+    implementation("androidx.room:room-runtime:2.6.1")
+    ksp("androidx.room:room-compiler:2.6.1")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -65,6 +61,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -74,3 +71,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
 }
+
+

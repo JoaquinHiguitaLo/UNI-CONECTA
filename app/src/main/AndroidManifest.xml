@@ -12,16 +12,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Uniconecta"
         tools:targetApi="31">
+
+        <activity
+            android:name=".HorarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalendarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Deberes"
+            android:exported="false" />
+        <activity
+            android:name=".Usuario"
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-
         <activity
-            android:name=".SecondActivity"
+            android:name=".InicioActivity"
             android:exported="false" />
-
         <activity
-            android:name=".MainActivity"
+            android:name=".MapaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlertasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
